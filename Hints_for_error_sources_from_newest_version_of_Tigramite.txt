@@ -1,6 +1,7 @@
 # Evgenia Galytska (EG), IUP, Bremen. 
 # 06.10.2020
 # Below I briefly provide major changes which I have ancountered in the recent version of Tigramite (as of 06.10.2020).  
+# However, I still recommend checking Tigramite tutorials. =)
 
 (i)  pcmci = PCMCI( dataframe=dataframe, cond_ind_test=parcorr, verbosity=1)   # PCMCI does not accept var_names anymore
 
