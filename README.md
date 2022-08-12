@@ -1,4 +1,3 @@
-04.03.2020
 @Evgenia Galytska (EG), Institute of Enviromental Physics (IUP), Bremen
 
 Assosiated with the research on Causal evaluation of Arctic-midlatitude teleconnections in CMIP6. 
