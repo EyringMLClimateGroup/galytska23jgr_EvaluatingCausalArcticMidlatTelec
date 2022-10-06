@@ -1,0 +1,19 @@
+Most figures in the paper can be reproduced using the respective notebooks.
+
+Fig.3    : Data_preparation.ipynb
+	  
+
+Fig.4    : Summaries_for_causal_model_evaluation.ipynb
+    path : Results_DIR/ERSST_v5ERA20C_ERA5_1900_2014_tau_15/PDV-_56_yr/*plt_causalgraph.png
+
+Fig.5    : Summaries_for_causal_model_evaluation.ipynb
+    path : Results_DIR/ERSST_v5ERA20C_ERA5_1900_2014_tau_15/PDV-_56_yr/*plt_causalgraph.png
+
+Fig.6    : F1-score_correlation_heatmap.ipynb
+    path : Results_DIR/ERSST_v5ERA20C_ERA5_1900_2014_tau_15/PDV-_56_yr/*plt_causalgraph.png
+    
+Fig.7    : F1-score_correlation_heatmap.ipynb
+    path : Results_DIR/ERSST_v5ERA20C_ERA5_1900_2014_tau_15/PDV-_56_yr/*plt_causalgraph.png
+   
+Fig.8    : F1-score_individual_networks.ipynb
+    path : Results_DIR/ERSST_v5ERA20C_ERA5_1900_2014_tau_15/PDV-_56_yr/*plt_causalgraph.png
