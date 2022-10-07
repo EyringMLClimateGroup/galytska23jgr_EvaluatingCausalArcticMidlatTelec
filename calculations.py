@@ -33,3 +33,18 @@ def get_metric_f1(ref_p_matrix, p_matrix, ref_val_matrix, val_matrix, alpha,
     recall = float(TP+1e-10) / float(TP + FN +1e-10)
     f1 = 2.0*precision*recall/float(precision + recall)
     return precision, recall, TP, FP, FN, f1, auto, count
+
+def put_row_first(df,row_name):
+    #put the row_name row at the first position of the df
+    df_out=df
+    df_out["new"] = range(1,len(df)+1)
+    df_out.loc[row_name, 'new'] = 0
+    df_out=df_out.sort_values("new").drop('new', axis=1)
+    return df_out
+
+def put_column_first(df,column_name):
+    #put the column_name col at the first position of the df
+    df_out=df
+    col= df_out.pop(column_name)
+    df_out.insert(0,column_name,col)
+    return df_out
