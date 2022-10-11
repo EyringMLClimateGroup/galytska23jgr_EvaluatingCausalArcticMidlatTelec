@@ -1,0 +1,17 @@
+Most figures in the paper can be reproduced using the respective notebooks.
+
+Fig.1    : Potential actors (no .ipynb code needed) 
+
+Fig.2    : Schematic of the causal model evaluation CME) framework (no .ipynb code needed) 
+
+Fig.3    : Causal graphs based on observations --> Data_preparation.ipynb
+	  
+Fig.4    : Summary causal graphs based on CMIP6 historical simulations --> Summaries_for_causal_model_evaluation.ipynb
+
+Fig.5    : Summary of causal and contemporaneous links detected in observations and CMIP6 historical simulations --> Summaries_for_causal_model_evaluation.ipynb
+
+Fig.6    : Matrix of average F1-scores --> F1-score_correlation_heatmap.ipynb
+    
+Fig.7    : Summary causal graphs based on CMIP6 SSP5-8.5 simulations --> Summaries_for_causal_model_evaluation.ipynb
+    
+Fig.8    : F1-score scatter plots of individual causal network comparison --> F1-score_individual_networks.ipynb
