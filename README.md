@@ -21,21 +21,21 @@ Please, follow the official tutorial to get acquainted with the application of t
 
 To reproduce the causal graphs from **_Galtytska et al., 2022_** manuscript use the following parameters:
 
-* For a conditional independence test  - linear partial correlation (`ParCorr`) and `significance='analytic'`, then the null distribution is assumed to be Student's t. 
-* `mask_type = ‘y“` when testing different seasons, for example winter (December-January-February, DJF)
+* For a conditional independence test  - linear partial correlation (`ParCorr`) and `significance="analytic"`, then the null distribution is assumed to be Student's t. 
+* `mask_type = "y“` when testing different seasons, for example winter (December-January-February, DJF)
 * maximum time delay `tau_max = 5 and`significance threshold `pc_alpha = 0.01`. 
 * Once causal graphs are calculated 
 
 ## II. Preparation for the analysis
 
-#### **1.**  Download this repository.
+#### 1.  Download this repository.
 
 ```
 git clone https://github.com/EyringMLClimateGroup/galytska22jgr_CME_arctic-midlat_teleconnections
 
 ```
 
-#### **2.**  Create the environment from the environment.yml file and activate it.
+#### 2.  Create the environment from the environment.yml file and activate it.
 
 ```
 conda env create --name my_env --file environment.yml
@@ -51,7 +51,7 @@ python -m ipykernel install --user --name=my_env
 
 ```
 
-## **III. Causal model evaluation**
+## III. Causal model evaluation
 
 ##### Data_preparation.ipynb
 
@@ -84,11 +84,11 @@ Use this script to reproduce **Fig. 8 from Galytska et al., 2022, JGR**.
 2. In the **second code cell** modify the path to the `base_folder` and read in the dictionary with the output from Tigramite calculations.
 3. In the **fifth code cell** modify the output path to save the figure.
 
-## **V. RESULTS**
+## V. RESULTS
 
 Results from running Jupyter notebooks will be saved into the corresponding directory, identified at each Notebook. To refer to figures from the paper, please see `list_of_figures.txt` to locate the notebook needed to reproduce a specific plot. 
 
-## **References**
+## References
 
 1. Eyring, V., Bock, L., Lauer, A., Righi, M., Schlund, M., Andela, B., and others: Earth System Model Evaluation Tool (ESMValTool) v2.0 – an extended set of large-scale diagnostics for quasi-operational and comprehensive evaluation of Earth system models in CMIP, Geosci. Model Dev., 13, 3383–3438, <https://doi.org/10.5194/gmd-13-3383-2020>, 2020.
 2. Runge. J.: Discovering contemporaneous and lagged causal relations in autocorrelated nonlinear time series datasets. Proceedings of the 36th Conference on Uncertainty in Artificial Intelligence, UAI 2020, Toronto, Canada, 2019, AUAI Press, <https://github.com/mlresearch/v124/blob/gh-pages/runge20a/runge20a.pdf>, 2020.
