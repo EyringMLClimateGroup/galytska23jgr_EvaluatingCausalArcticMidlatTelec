@@ -60,7 +60,7 @@ Use this code as an example to produce a dictionary with the results based on PC
 2. Modify the **second code cell** based on the models (`model_names`), actors (`actors`), seasons (`masking_list`), maximum lag in months (`max_timelag`), and the significance threshold (`pc_alpha`). 
 3. Provide in **the third code cell** the path to the base folder (`base_folder`), which serves as the output folder. The results will be structured and saved in this folder. 
 4. We suggest reading original data from observations and CMIP6 models into a dictionary with the structure as suggested in the **forths cell code**.
-5. In the **sevenths cell code** uncomment the code related to tigramite plotting.  Decide whether you would like to save the original causal graphs (`plot_Causal_Graphs`)  and the dictionary with the output from tigramite (`save_orig_dict`),  insert `True` or `False`. 
+5. In the **sevenths cell code** uncomment the code related to tigramite plotting. Decide (with `True` or `False`) whether you would like to save the original causal graphs (`plot_Causal_Graphs`)  and the dictionary with the output from tigramite (`save_orig_dict`). 
 
 ##### Summaries_for_causal_model_evaluation.ipynb
 
