@@ -5,9 +5,9 @@ This repository presents a sample of the causal model evaluation (CME) of Arctic
 It is available on ArXiV: 
 Corresponding DOI: 
 
-## **I. Installation of required packages **
+## I. Installation of required packages 
 
-#### **1.**  Install ESMValTool.
+#### 1.  Install ESMValTool.
 
 To install ESMValTool, please follow the official documentation here: <https://docs.esmvaltool.org/en/latest/quickstart/installation.html>. To reproduce and analyze data used in this study, run the recipe _**cme_galytska22jgr.**_
 
@@ -26,7 +26,7 @@ To reproduce the causal graphs from **_Galtytska et al., 2022_** manuscript use 
 * maximum time delay `tau_max = 5 and`significance threshold `pc_alpha = 0.01`. 
 * Once causal graphs are calculated 
 
-## **II. Preparation for the analysis**
+## II. Preparation for the analysis
 
 #### **1.**  Download this repository.
 
