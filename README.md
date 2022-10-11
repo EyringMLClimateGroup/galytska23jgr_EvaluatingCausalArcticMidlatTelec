@@ -64,7 +64,7 @@ Use this code as an example to produce a dictionary with the results based on PC
 
 ##### Summaries_for_causal_model_evaluation.ipynb
 
-Use this code to reproduce the number of climate models that simulate identical connections as detected from observations. The output is saved in a .txt file and represents the values in hexagons in **Fig. 4** and/or **Fig. 7**. This script also reproduces the summary of causal and contemporaneous links, see **Fig.5 in Galytska et al., 2022, JGR** and ** Figs. S2, S3, S5-S7 in the supporting information in Galytska et al., 2022, JGR. **
+Use this code to reproduce the number of climate models that simulate identical connections as detected from observations. The output is saved in a .txt file and represents the values in hexagons in **Fig. 4** and/or **Fig. 7**. This script also reproduces the summary of causal and contemporaneous links, see **Fig.5 in Galytska et al., 2022, JGR** and **Figs. S2, S3, S5-S7 in the supporting information in Galytska et al., 2022, JGR.**
 
 1. Modify the **second code cell** based on the models (`model_names`), actors (`actors`), seasons (`masking_list`), maximum lag in months (`max_timelag`), and the significance threshold (`pc_alpha`). 
 2. Load the dictionaries, saved as the output from **Data_preparation.ipynb** notebook or alternatively the dictionary with the `results` from the application of Tigramite on specific datasets (see the last code cell in **Data_preparation.ipynb** notebook for more tips). 
