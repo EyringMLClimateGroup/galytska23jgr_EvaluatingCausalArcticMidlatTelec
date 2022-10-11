@@ -24,7 +24,6 @@ To reproduce the causal graphs from **_Galtytska et al., 2022_** manuscript use 
 * For a conditional independence test  - linear partial correlation (`ParCorr`) and `significance="analytic"`, then the null distribution is assumed to be Student's t. 
 * `mask_type = "y“` when testing different seasons, for example winter (December-January-February, DJF)
 * maximum time delay `tau_max = 5 and`significance threshold `pc_alpha = 0.01`. 
-* Once causal graphs are calculated 
 
 ## II. Preparation for the analysis
 
