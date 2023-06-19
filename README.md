@@ -9,7 +9,7 @@ Corresponding DOI: 
 
 #### **1.**  Install ESMValTool.
 
-To install ESMValTool, please follow the official documentation here: <https://docs.esmvaltool.org/en/latest/quickstart/installation.html> and/or ESMValTool Tutorial here: <https://esmvalgroup.github.io/ESMValTool_Tutorial/>. To reproduce and analyze data used in this study, run the recipe _**cme_galytska22jgr.yml.**_
+To install ESMValTool, please follow the official documentation here: <https://docs.esmvaltool.org/en/latest/quickstart/installation.html> and/or ESMValTool Tutorial here: <https://esmvalgroup.github.io/ESMValTool_Tutorial/>. To reproduce and analyze data used in this study, run the recipe _**recipe_galytska23jgr.yml**_
 
 #### 2. Install Tigramite and use PCMCI+.
 
@@ -17,14 +17,13 @@ Follow the official GitHub repository for the installation instructions: <https:
 
 Please, follow the official tutorial to get acquainted with the application of the PCMCI+ algorithm from the Tigramite package. 
 
-<https://github.com/jakobrunge/tigramite/blob/master/tutorials/tigramite_tutorial_pcmciplus.ipynb>
+<https://https://github.com/jakobrunge/tigramite/tree/master/tutorials/causal_discovery/tigramite_tutorial_pcmciplus.ipynb>
 
-To reproduce the causal graphs from **_Galtytska et al., 2022_** manuscript use the following parameters:
+To reproduce the causal graphs from **_Galtytska et al., 2023_** manuscript use the following parameters:
 
 * For a conditional independence test  - linear partial correlation (`ParCorr`) and `significance='analytic'`, then the null distribution is assumed to be Student's t. 
 * `mask_type = ‘y“` when testing different seasons, for example winter (December-January-February, DJF)
 * maximum time delay `tau_max = 5 and`significance threshold `pc_alpha = 0.01`. 
-* Once causal graphs are calculated 
 
 ## **II. Preparation for the analysis**
 
