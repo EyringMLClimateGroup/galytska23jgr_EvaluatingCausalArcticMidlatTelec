@@ -2,7 +2,7 @@ Most figures in the paper can be reproduced using the respective notebooks.
 
 Fig.1    : Potential actors (no .ipynb code needed) 
 
-Fig.2    : Schematic of the causal model evaluation CME) framework (no .ipynb code needed) 
+Fig.2    : Schematic of the causal model evaluation (CME) framework (no .ipynb code needed) 
 
 Fig.3    : Causal graphs based on observations --> Data_preparation.ipynb
 	  
