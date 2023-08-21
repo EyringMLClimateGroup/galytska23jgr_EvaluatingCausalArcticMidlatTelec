@@ -4,7 +4,8 @@ This repository presents a sample of the causal model evaluation (CME) of Arctic
 
 It is available on ArXiV: 
 
-Corresponding DOI: 
+Corresponding DOI: [![DOI](https://zenodo.org/badge/681083742.svg)](https://zenodo.org/badge/latestdoi/681083742)
+
 
 ## **I. Preparation of the data with ESMValTool**
 #### **Step 1.**  Install ESMValTool.
