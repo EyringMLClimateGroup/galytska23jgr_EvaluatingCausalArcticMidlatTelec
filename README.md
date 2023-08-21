@@ -29,6 +29,11 @@ cd galytska23jgr_EvaluatingCausalArcticMidlatTelec
 conda env create --name my_env --file environment.yml
 conda activate my_env
 ```
+In case the environment file ```environment.yml``` is not working (most likely because some of the dependencies are not available anymore), we suggest creating the environment with the following key dependencies:
+```
+conda create -n my_env python=3.9 numpy matplotlib scipy iris pandas seaborn xarray
+```
+
 Install anaconda ipykernel (if needed) and create a new kernel for Jupyter Notebook
 
 ```
